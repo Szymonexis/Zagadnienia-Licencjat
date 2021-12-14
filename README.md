@@ -2,9 +2,9 @@
 
 ## Podział pracy
 
-|Branch|[Szymon](https://github.com/Szymonexis/Zagadnienia-Licencjat/tree/szymon)|[Karyna](https://github.com/Szymonexis/Zagadnienia-Licencjat/tree/karyna)|[Maciej](https://github.com/Szymonexis/Zagadnienia-Licencjat/tree/maciek)|[Bartek](https://github.com/Szymonexis/Zagadnienia-Licencjat/tree/bartek)|[Denis](https://github.com/Szymonexis/Zagadnienia-Licencjat/tree/denis)|
-|---|---|---|---|---|---|
-|Nr. zagadnien|01 - 10|11 - 20|21 - 30|31 - 40|41 - 50|
+|Szymon|Karyna|Maciej|Bartek|Denis|
+|---|---|---|---|---|
+|01 - 10|11 - 20|21 - 30|31 - 40|41 - 50|
 
 Commity robimy do swoich branchy - pull requesty robimy, reviewer ustawiamy na @Szymonexis (zeby nie doszlo do kolizji)
 ### :warning: Spotkamy sie w sobote na discordzie i pewnie to jebniemy jednym strzalem
