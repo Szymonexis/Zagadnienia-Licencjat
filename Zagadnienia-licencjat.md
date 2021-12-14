@@ -2,6 +2,53 @@
 
 ### 1. ﻿Ciągi liczb rzeczywistych. Zbieżność ciągu, warunek Cauchy'ego.
 
+<h4>Definicja</h4>
+
+**Ciągiem** nazywamy funkcję, której dziedziną jest zbiór liczb naturalnych $\mathbb{N}$ lub jego skończony odcinek początkowy $\{ 1, 2, 3, ... , m \}$.
+Ciągiem liczbowym nazywamy ciąg, którego wyrazy są liczbami.
+
+Liczbę $g$ nazywamy **granicą ciągu nieskończonego** $(a_n)$ , jeśli dla każdej liczby dodatniej  istnieje taka liczba $k$, że dla $n>k$ zachodzi nierówność:
+$|a_n-g|< \epsilon$
+
+Ciągiem **zbieżnym (rozbieżnym)** nazywamy ciąg, który **posiada granicę (nie posiada granicy)**.
+
+<h4> Własności: </h4>
+
+> 1. Jeśli ciąg posiada granicę to tylko jedną.
+>
+> 2. Każdy ciąg zbieżny jest ograniczony.
+>
+> 3. Przy założeniu, że ciągi $(a_n)$ i $(b_n)$ są zbieżne, zachodzą następujące wzory:
+>    - $\lim_{n \to \infty} (a_n \pm b_n) = \lim_{n \to \infty} a_n \pm \lim_{n \to \infty} b_n$ (dla iloczynu i ilorazu też zachodzi)
+>    - $\lim_{n \to \infty} - (a_n) = - \lim_{n \to \infty} a_n$
+> 4. Jeżeli ciąg $(b_n)$ jest zbieżny i $\lim_{n \to \infty} \neq 0$, to $\lim_{n \to \infty} {1 \over b_n} = {1 \over {\lim_{n \to \infty} b_n}}$.
+>
+> 5. Jeżeli ciąg $(a_n)$ jest zbieżny, to $\lim_{n \to \infty} |a_n| = | \lim_{n \to \infty} a_n|$.
+>
+> 6. **(Tw. o trzech ciągach)**: Jeśli $a_n \leq c_n \leq b_n \;\; i \;\; \lim_{n \to\infty} a_n = g = \lim_{n\to\infty} b_n$ , to ciąg $(c_n)$ jest zbieżny, przy czym $\lim_{n \to\infty} c_n = \lim_{n \to\infty} b_n  = \lim_{n\to\infty} a_n$.
+>
+> 7. Zmiana skończonej ilości wyrazów ciągu nie wpływa na jego zbieżność/granicę.
+>
+> 8. Podciąg ciągu zbieżnego jest zbieżny do tej samej granicy, co ciąg dany.
+
+<p>
+<h4>Warunek Cauchy’ego:</h4>
+
+$\forall_{\epsilon > 0} \;\;\exists_{n_0 \in \mathbb{N}}\;\;\forall_{n, m > n_0}\;\;(|a_n - a_m|<\epsilon)$  
+
+*Po ludzku:*
+Ciągi Cauchy'ego to takie ciągi, dla których odległości między wyrazami zmierzają do zera.
+Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\epsilon$ , można ustalić odpowiednio duży wskaźnik $\mathbb{N}$ taki, że dowolne dwa wyrazy o wyższych wskaźnikach są odległe od siebie o mniej niż $\epsilon$.
+
+<h4> Własności ciągu Cauchy'ego: </h4>
+
+> 1. Ciąg $(a_n)^{\infty}_{n=1}$ jest zbieżny $\Longleftrightarrow$ gdy jest ciągiem Cauchy’ego. **(ale niekoniecznie odwrotnie)**.
+>
+> 2. Każdy ciąg Cauchy’ego jest ograniczony.
+</p>
+
+### 2. Macierze. Podstawowe operacje na macierzach. Rząd i wyznacznik macierzy.
+
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
     <thead>
@@ -20,27 +67,7 @@
     </tbody>
 </table>
 
-### 2. Macierze. Podstawowe operacje na macierzach. Rząd i wyznacznik macierzy. 
-
-<a href="<link_to_resource_local_or_online_here>"></a><b></b>
-<table align="center">
-    <thead>
-        <tr>
-            <th>Ex. 1</th>
-            <th>Ex. 2</th>
-            <th>Ex. 3</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Ts</td>
-            <td>Ts</td>
-            <td>Ts</td>
-        </tr>
-    </tbody>
-</table>
-
-### 3. Rozwiązywanie układów równań liniowych. 
+### 3. Rozwiązywanie układów równań liniowych.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -700,7 +727,7 @@
     </tbody>
 </table>
 
-### 36. Najważniejsze protokoły rodziny TCP/IP. 
+### 36. Najważniejsze protokoły rodziny TCP/IP.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -998,4 +1025,3 @@
         </tr>
     </tbody>
 </table>
-
