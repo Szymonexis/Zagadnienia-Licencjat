@@ -1,6 +1,6 @@
 # Zagadnienia na licencjat
 
-### 1. ﻿Ciągi liczb rzeczywistych. Zbieżność ciągu, warunek Cauchy'ego.
+### 1. Ciągi liczb rzeczywistych. Zbieżność ciągu, warunek Cauchy'ego.
 
 <h4>Definicja</h4>
 
