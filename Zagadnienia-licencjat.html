@@ -37,14 +37,14 @@
     </head>
     <body class="vscode-body vscode-light">
         <h1 id="zagadnienia-na-licencjat">Zagadnienia na licencjat</h1>
-<h3 id="1-ciągi-liczb-rzeczywistych-zbieżność-ciągu-warunek-cauchyego">1. ﻿Ciągi liczb rzeczywistych. Zbieżność ciągu, warunek Cauchy'ego.</h3>
-<h4>Definicja</h4>
+<h2 id="1-ciągi-liczb-rzeczywistych-zbieżność-ciągu-warunek-cauchyego">1. Ciągi liczb rzeczywistych. Zbieżność ciągu, warunek Cauchy'ego.</h2>
+<h3>Definicja</h3>
 <p><strong>Ciągiem</strong> nazywamy funkcję, której dziedziną jest zbiór liczb naturalnych <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="double-struck">N</mi></mrow><annotation encoding="application/x-tex">\mathbb{N}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68889em;vertical-align:0em;"></span><span class="mord mathbb">N</span></span></span></span> lub jego skończony odcinek początkowy <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">{</mo><mn>1</mn><mo separator="true">,</mo><mn>2</mn><mo separator="true">,</mo><mn>3</mn><mo separator="true">,</mo><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mo separator="true">,</mo><mi>m</mi><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{ 1, 2, 3, ... , m \}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">{</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">2</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">3</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">...</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">m</span><span class="mclose">}</span></span></span></span>.
 Ciągiem liczbowym nazywamy ciąg, którego wyrazy są liczbami.</p>
 <p>Liczbę <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi></mrow><annotation encoding="application/x-tex">g</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span> nazywamy <strong>granicą ciągu nieskończonego</strong> <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><msub><mi>a</mi><mi>n</mi></msub><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(a_n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> , jeśli dla każdej liczby dodatniej  istnieje taka liczba <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span>, że dla <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>&gt;</mo><mi>k</mi></mrow><annotation encoding="application/x-tex">n&gt;k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> zachodzi nierówność:
 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∣</mi><msub><mi>a</mi><mi>n</mi></msub><mo>−</mo><mi>g</mi><mi mathvariant="normal">∣</mi><mo>&lt;</mo><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">|a_n-g|&lt; \epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">∣</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">ϵ</span></span></span></span></p>
 <p>Ciągiem <strong>zbieżnym (rozbieżnym)</strong> nazywamy ciąg, który <strong>posiada granicę (nie posiada granicy)</strong>.</p>
-<h4> Własności: </h4>
+<h3> Własności: </h3>
 <blockquote>
 <ol>
 <li>
@@ -78,12 +78,12 @@ Ciągiem liczbowym nazywamy ciąg, którego wyrazy są liczbami.</p>
 </ol>
 </blockquote>
 <p>
-<h4>Warunek Cauchy’ego:</h4>
+<h3>Warunek Cauchy’ego:</h3>
 <p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi mathvariant="normal">∀</mi><mrow><mi>ϵ</mi><mo>&gt;</mo><mn>0</mn></mrow></msub><mtext>  </mtext><mtext>  </mtext><msub><mi mathvariant="normal">∃</mi><mrow><msub><mi>n</mi><mn>0</mn></msub><mo>∈</mo><mi mathvariant="double-struck">N</mi></mrow></msub><mtext>  </mtext><mtext>  </mtext><msub><mi mathvariant="normal">∀</mi><mrow><mi>n</mi><mo separator="true">,</mo><mi>m</mi><mo>&gt;</mo><msub><mi>n</mi><mn>0</mn></msub></mrow></msub><mtext>  </mtext><mtext>  </mtext><mo stretchy="false">(</mo><mi mathvariant="normal">∣</mi><msub><mi>a</mi><mi>n</mi></msub><mo>−</mo><msub><mi>a</mi><mi>m</mi></msub><mi mathvariant="normal">∣</mi><mo>&lt;</mo><mi>ϵ</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\forall_{\epsilon &gt; 0} \;\;\exists_{n_0 \in \mathbb{N}}\;\;\forall_{n, m &gt; n_0}\;\;(|a_n - a_m|&lt;\epsilon)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.036108em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord">∀</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">ϵ</span><span class="mrel mtight">&gt;</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.17737em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord">∃</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33222299999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mrel mtight">∈</span><span class="mord mathbb mtight">N</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2501em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord">∀</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.22737000000000002em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">n</span><span class="mpunct mtight">,</span><span class="mord mathnormal mtight">m</span><span class="mrel mtight">&gt;</span><span class="mord mtight"><span class="mord mathnormal mtight">n</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mopen">(</span><span class="mord">∣</span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">∣</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">ϵ</span><span class="mclose">)</span></span></span></span></p>
 <p><em>Po ludzku:</em>
 Ciągi Cauchy'ego to takie ciągi, dla których odległości między wyrazami zmierzają do zera.
 Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">ϵ</span></span></span></span> , można ustalić odpowiednio duży wskaźnik <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="double-struck">N</mi></mrow><annotation encoding="application/x-tex">\mathbb{N}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68889em;vertical-align:0em;"></span><span class="mord mathbb">N</span></span></span></span> taki, że dowolne dwa wyrazy o wyższych wskaźnikach są odległe od siebie o mniej niż <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">ϵ</span></span></span></span>.</p>
-<h4> Własności ciągu Cauchy'ego: </h4>
+<h3> Własności ciągu Cauchy'ego: </h3>
 <blockquote>
 <ol>
 <li>
@@ -95,7 +95,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
 </ol>
 </blockquote>
 </p>
-<h3 id="2-macierze-podstawowe-operacje-na-macierzach-rząd-i-wyznacznik-macierzy">2. Macierze. Podstawowe operacje na macierzach. Rząd i wyznacznik macierzy.</h3>
+<h2 id="2-macierze-podstawowe-operacje-na-macierzach-rząd-i-wyznacznik-macierzy">2. Macierze. Podstawowe operacje na macierzach. Rząd i wyznacznik macierzy.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -113,7 +113,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="3-rozwiązywanie-układów-równań-liniowych">3. Rozwiązywanie układów równań liniowych.</h3>
+<h2 id="3-rozwiązywanie-układów-równań-liniowych">3. Rozwiązywanie układów równań liniowych.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -131,7 +131,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="4-rachunek-zdań-tautologie">4. Rachunek zdań. Tautologie.</h3>
+<h2 id="4-rachunek-zdań-tautologie">4. Rachunek zdań. Tautologie.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -149,7 +149,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="5-indukcja-matematyczna">5. Indukcja matematyczna.</h3>
+<h2 id="5-indukcja-matematyczna">5. Indukcja matematyczna.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -167,7 +167,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="6-permutacje-wariacje-i-kombinacje">6. Permutacje, wariacje i kombinacje.</h3>
+<h2 id="6-permutacje-wariacje-i-kombinacje">6. Permutacje, wariacje i kombinacje.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -185,7 +185,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="7-klasyczna-definicja-prawdopodobieństwa-prawdopodobieństwo-geometryczne">7. Klasyczna definicja prawdopodobieństwa. Prawdopodobieństwo geometryczne.</h3>
+<h2 id="7-klasyczna-definicja-prawdopodobieństwa-prawdopodobieństwo-geometryczne">7. Klasyczna definicja prawdopodobieństwa. Prawdopodobieństwo geometryczne.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -203,7 +203,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="8-struktura-logiczna-i-funkcjonalna-klasycznego-komputera">8. Struktura logiczna i funkcjonalna klasycznego komputera.</h3>
+<h2 id="8-struktura-logiczna-i-funkcjonalna-klasycznego-komputera">8. Struktura logiczna i funkcjonalna klasycznego komputera.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -221,7 +221,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="9-reprezentacja-liczb-w-pozycyjnym-systemie-liczbowym-systemy-dwójkowy-i-szesnastkowy-oraz-ich-zastosowania">9. Reprezentacja liczb w pozycyjnym systemie liczbowym. Systemy dwójkowy i szesnastkowy oraz ich zastosowania.</h3>
+<h2 id="9-reprezentacja-liczb-w-pozycyjnym-systemie-liczbowym-systemy-dwójkowy-i-szesnastkowy-oraz-ich-zastosowania">9. Reprezentacja liczb w pozycyjnym systemie liczbowym. Systemy dwójkowy i szesnastkowy oraz ich zastosowania.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -239,7 +239,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="10-arytmetyka-stałopozycyjna-i-zmiennopozycyjna-reprezentacja-liczb-w-komputerze">10. Arytmetyka stałopozycyjna i zmiennopozycyjna. Reprezentacja liczb w komputerze.</h3>
+<h2 id="10-arytmetyka-stałopozycyjna-i-zmiennopozycyjna-reprezentacja-liczb-w-komputerze">10. Arytmetyka stałopozycyjna i zmiennopozycyjna. Reprezentacja liczb w komputerze.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -257,7 +257,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="11-system-operacyjny-postrzeganie-systemu-operacyjnego-przez-warstwę-oprogramowania-użytkowego">11. System operacyjny. Postrzeganie systemu operacyjnego przez warstwę oprogramowania użytkowego.</h3>
+<h2 id="11-system-operacyjny-postrzeganie-systemu-operacyjnego-przez-warstwę-oprogramowania-użytkowego">11. System operacyjny. Postrzeganie systemu operacyjnego przez warstwę oprogramowania użytkowego.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -275,7 +275,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="12-cechy-tradycyjnego-systemu-unixowego">12. Cechy tradycyjnego systemu unixowego.</h3>
+<h2 id="12-cechy-tradycyjnego-systemu-unixowego">12. Cechy tradycyjnego systemu unixowego.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -293,7 +293,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="13-iteracja-rekurencja-i-ich-realizacja">13. Iteracja, rekurencja i ich realizacja.</h3>
+<h2 id="13-iteracja-rekurencja-i-ich-realizacja">13. Iteracja, rekurencja i ich realizacja.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -311,7 +311,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="14-mechanizmy-strukturalizacji-programów---instrukcje-warunkowe-i-pętle">14. Mechanizmy strukturalizacji programów - instrukcje warunkowe i pętle.</h3>
+<h2 id="14-mechanizmy-strukturalizacji-programów---instrukcje-warunkowe-i-pętle">14. Mechanizmy strukturalizacji programów - instrukcje warunkowe i pętle.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -329,7 +329,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="15-podprogramy-przekazywanie-parametrów-podprogramu">15. Podprogramy. Przekazywanie parametrów podprogramu.</h3>
+<h2 id="15-podprogramy-przekazywanie-parametrów-podprogramu">15. Podprogramy. Przekazywanie parametrów podprogramu.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -347,7 +347,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="16-porównanie-programowania-obiektowego-i-strukturalnego">16. Porównanie programowania obiektowego i strukturalnego.</h3>
+<h2 id="16-porównanie-programowania-obiektowego-i-strukturalnego">16. Porównanie programowania obiektowego i strukturalnego.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -365,7 +365,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="17-hermetyzacja-danych---cechy-klas-obiektowych-pola-metody-poziomy-prywatności-danych">17. Hermetyzacja danych - cechy klas obiektowych (pola, metody, poziomy prywatności danych).</h3>
+<h2 id="17-hermetyzacja-danych---cechy-klas-obiektowych-pola-metody-poziomy-prywatności-danych">17. Hermetyzacja danych - cechy klas obiektowych (pola, metody, poziomy prywatności danych).</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -383,7 +383,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="18-typy-metod-konstruktory-destruktory-selektory-zapytania-iteratory">18. Typy metod: konstruktory, destruktory, selektory, zapytania, iteratory.</h3>
+<h2 id="18-typy-metod-konstruktory-destruktory-selektory-zapytania-iteratory">18. Typy metod: konstruktory, destruktory, selektory, zapytania, iteratory.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -401,7 +401,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="19-dziedziczenie-i-dynamiczny-polimorfizm">19. Dziedziczenie i dynamiczny polimorfizm.</h3>
+<h2 id="19-dziedziczenie-i-dynamiczny-polimorfizm">19. Dziedziczenie i dynamiczny polimorfizm.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -419,7 +419,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="20-polimorfizm-statyczny--szablony">20. Polimorfizm statyczny – szablony.</h3>
+<h2 id="20-polimorfizm-statyczny--szablony">20. Polimorfizm statyczny – szablony.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -437,7 +437,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="21-listy-i-drzewa-oraz-ich-zastosowania-stosy-i-kolejki">21. Listy i drzewa oraz ich zastosowania. Stosy i kolejki.</h3>
+<h2 id="21-listy-i-drzewa-oraz-ich-zastosowania-stosy-i-kolejki">21. Listy i drzewa oraz ich zastosowania. Stosy i kolejki.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -455,7 +455,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="22-grafy-i-metody-ich-przeszukiwania-zastosowania">22. Grafy i metody ich przeszukiwania. Zastosowania.</h3>
+<h2 id="22-grafy-i-metody-ich-przeszukiwania-zastosowania">22. Grafy i metody ich przeszukiwania. Zastosowania.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -473,7 +473,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="23-metody-projektowania-algorytmów-dziel-i-rządź-programowanie-dynamiczne-i-algorytmy-zachłanne">23. Metody projektowania algorytmów (dziel i rządź, programowanie dynamiczne i algorytmy zachłanne).</h3>
+<h2 id="23-metody-projektowania-algorytmów-dziel-i-rządź-programowanie-dynamiczne-i-algorytmy-zachłanne">23. Metody projektowania algorytmów (dziel i rządź, programowanie dynamiczne i algorytmy zachłanne).</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -491,7 +491,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="24-elementarne-i-nieelementarne-metody-sortowania">24. Elementarne i nieelementarne metody sortowania.</h3>
+<h2 id="24-elementarne-i-nieelementarne-metody-sortowania">24. Elementarne i nieelementarne metody sortowania.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -509,7 +509,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="25-elementarne-metody-wyszukiwania-haszowanie">25. Elementarne metody wyszukiwania. Haszowanie.</h3>
+<h2 id="25-elementarne-metody-wyszukiwania-haszowanie">25. Elementarne metody wyszukiwania. Haszowanie.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -527,7 +527,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="26-złożoność-obliczeniowa-algorytmu-przykłady">26. Złożoność obliczeniowa algorytmu. Przykłady.</h3>
+<h2 id="26-złożoność-obliczeniowa-algorytmu-przykłady">26. Złożoność obliczeniowa algorytmu. Przykłady.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -545,7 +545,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="27-pojęcie-bazy-danych---funkcje-i-możliwości">27. Pojęcie bazy danych - funkcje i możliwości.</h3>
+<h2 id="27-pojęcie-bazy-danych---funkcje-i-możliwości">27. Pojęcie bazy danych - funkcje i możliwości.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -563,7 +563,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="28-relacja-i-jej-atrybuty-w-bazach-danych">28. Relacja i jej atrybuty w bazach danych.</h3>
+<h2 id="28-relacja-i-jej-atrybuty-w-bazach-danych">28. Relacja i jej atrybuty w bazach danych.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -581,7 +581,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="29-spójność-referencyjna-baz-danych">29. Spójność referencyjna baz danych.</h3>
+<h2 id="29-spójność-referencyjna-baz-danych">29. Spójność referencyjna baz danych.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -599,7 +599,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="30-normalizacja-relacji---postaci-normalne">30. Normalizacja relacji - postaci normalne.</h3>
+<h2 id="30-normalizacja-relacji---postaci-normalne">30. Normalizacja relacji - postaci normalne.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -617,7 +617,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="31-modelowanie-bazy-danych---rodzaje-połączeń-relacyjnych-pojęcie-klucza-głównego-i-obcego">31. Modelowanie bazy danych - rodzaje połączeń relacyjnych, pojęcie klucza głównego i obcego.</h3>
+<h2 id="31-modelowanie-bazy-danych---rodzaje-połączeń-relacyjnych-pojęcie-klucza-głównego-i-obcego">31. Modelowanie bazy danych - rodzaje połączeń relacyjnych, pojęcie klucza głównego i obcego.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -635,7 +635,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="32-pojęcie-indeksu---rodzaje-i-zastosowanie">32. Pojęcie indeksu - rodzaje i zastosowanie.</h3>
+<h2 id="32-pojęcie-indeksu---rodzaje-i-zastosowanie">32. Pojęcie indeksu - rodzaje i zastosowanie.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -653,7 +653,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="33-podstawowe-konstrukcje-języka-sql">33. Podstawowe konstrukcje języka SQL.</h3>
+<h2 id="33-podstawowe-konstrukcje-języka-sql">33. Podstawowe konstrukcje języka SQL.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -671,7 +671,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="34-warstwy-i-funkcje-modelu-iso-osi">34. Warstwy i funkcje modelu ISO OSI.</h3>
+<h2 id="34-warstwy-i-funkcje-modelu-iso-osi">34. Warstwy i funkcje modelu ISO OSI.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -689,7 +689,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="35-adresowanie-logiczne-w-sieciach-komputerowych">35. Adresowanie logiczne w sieciach komputerowych.</h3>
+<h2 id="35-adresowanie-logiczne-w-sieciach-komputerowych">35. Adresowanie logiczne w sieciach komputerowych.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -707,7 +707,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="36-najważniejsze-protokoły-rodziny-tcpip">36. Najważniejsze protokoły rodziny TCP/IP.</h3>
+<h2 id="36-najważniejsze-protokoły-rodziny-tcpip">36. Najważniejsze protokoły rodziny TCP/IP.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -725,7 +725,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="37-cykle-życia-oprogramowania">37. Cykle życia oprogramowania.</h3>
+<h2 id="37-cykle-życia-oprogramowania">37. Cykle życia oprogramowania.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -743,7 +743,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="38-proces-testowania-i-jego-rola-w-tworzeniu-oprogramowania">38. Proces testowania i jego rola w tworzeniu oprogramowania.</h3>
+<h2 id="38-proces-testowania-i-jego-rola-w-tworzeniu-oprogramowania">38. Proces testowania i jego rola w tworzeniu oprogramowania.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -761,7 +761,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="39-uml-jego-struktura-i-przeznaczenie">39. UML, jego struktura i przeznaczenie.</h3>
+<h2 id="39-uml-jego-struktura-i-przeznaczenie">39. UML, jego struktura i przeznaczenie.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -779,7 +779,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="40-podstawowe-funkcje-w-zespole-projektowym-i-ich-role">40. Podstawowe funkcje w zespole projektowym i ich role.</h3>
+<h2 id="40-podstawowe-funkcje-w-zespole-projektowym-i-ich-role">40. Podstawowe funkcje w zespole projektowym i ich role.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -797,7 +797,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="41-pojęcie-maszyny-turinga---idea-pracy-automatu-hipoteza-churcha-turinga">41. Pojęcie Maszyny Turinga - idea pracy automatu, hipoteza Churcha-Turinga</h3>
+<h2 id="41-pojęcie-maszyny-turinga---idea-pracy-automatu-hipoteza-churcha-turinga">41. Pojęcie Maszyny Turinga - idea pracy automatu, hipoteza Churcha-Turinga</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -815,7 +815,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="42-usługa-translacji-adresów-w-sieci-tcpip">42. Usługa translacji adresów w sieci TCP/IP.</h3>
+<h2 id="42-usługa-translacji-adresów-w-sieci-tcpip">42. Usługa translacji adresów w sieci TCP/IP.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -833,7 +833,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="43-mechanizm-trasowania-ang-routing-pakietów-w-internecie">43. Mechanizm trasowania (ang. routing) pakietów w Internecie.</h3>
+<h2 id="43-mechanizm-trasowania-ang-routing-pakietów-w-internecie">43. Mechanizm trasowania (ang. routing) pakietów w Internecie.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -851,7 +851,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="44-usługi-nazewnicze-sieci-tcpip">44. Usługi nazewnicze sieci TCP/IP.</h3>
+<h2 id="44-usługi-nazewnicze-sieci-tcpip">44. Usługi nazewnicze sieci TCP/IP.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -869,7 +869,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="45-zarządzanie-konfiguracją-urządzenia-w-sieci-tcpip">45. Zarządzanie konfiguracją urządzenia w sieci TCP/IP.</h3>
+<h2 id="45-zarządzanie-konfiguracją-urządzenia-w-sieci-tcpip">45. Zarządzanie konfiguracją urządzenia w sieci TCP/IP.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -887,7 +887,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="46-wirtualne-sieci-lokalne">46. Wirtualne sieci lokalne.</h3>
+<h2 id="46-wirtualne-sieci-lokalne">46. Wirtualne sieci lokalne.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -905,7 +905,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="47-technologie-redundantne-w-sieciach-komputerowych">47. Technologie redundantne w sieciach komputerowych.</h3>
+<h2 id="47-technologie-redundantne-w-sieciach-komputerowych">47. Technologie redundantne w sieciach komputerowych.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -923,7 +923,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="48-metody-optymalizacji-zapytań-sql">48. Metody optymalizacji zapytań SQL.</h3>
+<h2 id="48-metody-optymalizacji-zapytań-sql">48. Metody optymalizacji zapytań SQL.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -941,7 +941,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="49-modele-uwierzytelniania-autoryzacji-i-kontroli-dostępu-do-systemów-komputerowych">49. Modele uwierzytelniania, autoryzacji i kontroli dostępu do systemów komputerowych.</h3>
+<h2 id="49-modele-uwierzytelniania-autoryzacji-i-kontroli-dostępu-do-systemów-komputerowych">49. Modele uwierzytelniania, autoryzacji i kontroli dostępu do systemów komputerowych.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>
@@ -959,7 +959,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą <span
         </tr>
     </tbody>
 </table>
-<h3 id="50-teoretyczne-modele-komputerów-automaty-skończone-automaty-ze-stosem-maszyny-turinga-i-odpowiadające-im-klasy-języków-formalnych">50. Teoretyczne modele komputerów: automaty skończone, automaty ze stosem, maszyny Turinga i odpowiadające im klasy języków formalnych.</h3>
+<h2 id="50-teoretyczne-modele-komputerów-automaty-skończone-automaty-ze-stosem-maszyny-turinga-i-odpowiadające-im-klasy-języków-formalnych">50. Teoretyczne modele komputerów: automaty skończone, automaty ze stosem, maszyny Turinga i odpowiadające im klasy języków formalnych.</h2>
 <p><a href="<link_to_resource_local_or_online_here>"></a><b></b></p>
 <table align="center">
     <thead>

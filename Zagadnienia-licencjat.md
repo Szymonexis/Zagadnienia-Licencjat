@@ -1,8 +1,8 @@
 # Zagadnienia na licencjat
 
-### 1. Ciągi liczb rzeczywistych. Zbieżność ciągu, warunek Cauchy'ego.
+## 1. Ciągi liczb rzeczywistych. Zbieżność ciągu, warunek Cauchy'ego.
 
-<h4>Definicja</h4>
+<h3>Definicja</h3>
 
 **Ciągiem** nazywamy funkcję, której dziedziną jest zbiór liczb naturalnych $\mathbb{N}$ lub jego skończony odcinek początkowy $\{ 1, 2, 3, ... , m \}$.
 Ciągiem liczbowym nazywamy ciąg, którego wyrazy są liczbami.
@@ -12,7 +12,7 @@ $|a_n-g|< \epsilon$
 
 Ciągiem **zbieżnym (rozbieżnym)** nazywamy ciąg, który **posiada granicę (nie posiada granicy)**.
 
-<h4> Własności: </h4>
+<h3> Własności: </h3>
 
 > 1. Jeśli ciąg posiada granicę to tylko jedną.
 >
@@ -32,7 +32,7 @@ Ciągiem **zbieżnym (rozbieżnym)** nazywamy ciąg, który **posiada granicę (
 > 8. Podciąg ciągu zbieżnego jest zbieżny do tej samej granicy, co ciąg dany.
 
 <p>
-<h4>Warunek Cauchy’ego:</h4>
+<h3>Warunek Cauchy’ego:</h3>
 
 $\forall_{\epsilon > 0} \;\;\exists_{n_0 \in \mathbb{N}}\;\;\forall_{n, m > n_0}\;\;(|a_n - a_m|<\epsilon)$  
 
@@ -40,14 +40,14 @@ $\forall_{\epsilon > 0} \;\;\exists_{n_0 \in \mathbb{N}}\;\;\forall_{n, m > n_0}
 Ciągi Cauchy'ego to takie ciągi, dla których odległości między wyrazami zmierzają do zera.
 Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\epsilon$ , można ustalić odpowiednio duży wskaźnik $\mathbb{N}$ taki, że dowolne dwa wyrazy o wyższych wskaźnikach są odległe od siebie o mniej niż $\epsilon$.
 
-<h4> Własności ciągu Cauchy'ego: </h4>
+<h3> Własności ciągu Cauchy'ego: </h3>
 
 > 1. Ciąg $(a_n)^{\infty}_{n=1}$ jest zbieżny $\Longleftrightarrow$ gdy jest ciągiem Cauchy’ego. **(ale niekoniecznie odwrotnie)**.
 >
 > 2. Każdy ciąg Cauchy’ego jest ograniczony.
 </p>
 
-### 2. Macierze. Podstawowe operacje na macierzach. Rząd i wyznacznik macierzy.
+## 2. Macierze. Podstawowe operacje na macierzach. Rząd i wyznacznik macierzy.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -67,7 +67,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 3. Rozwiązywanie układów równań liniowych.
+## 3. Rozwiązywanie układów równań liniowych.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -87,7 +87,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 4. Rachunek zdań. Tautologie.
+## 4. Rachunek zdań. Tautologie.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -107,7 +107,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 5. Indukcja matematyczna.
+## 5. Indukcja matematyczna.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -127,7 +127,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 6. Permutacje, wariacje i kombinacje.
+## 6. Permutacje, wariacje i kombinacje.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -147,7 +147,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 7. Klasyczna definicja prawdopodobieństwa. Prawdopodobieństwo geometryczne.
+## 7. Klasyczna definicja prawdopodobieństwa. Prawdopodobieństwo geometryczne.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -167,7 +167,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 8. Struktura logiczna i funkcjonalna klasycznego komputera.
+## 8. Struktura logiczna i funkcjonalna klasycznego komputera.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -187,7 +187,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 9. Reprezentacja liczb w pozycyjnym systemie liczbowym. Systemy dwójkowy i szesnastkowy oraz ich zastosowania.
+## 9. Reprezentacja liczb w pozycyjnym systemie liczbowym. Systemy dwójkowy i szesnastkowy oraz ich zastosowania.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -207,7 +207,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 10. Arytmetyka stałopozycyjna i zmiennopozycyjna. Reprezentacja liczb w komputerze.
+## 10. Arytmetyka stałopozycyjna i zmiennopozycyjna. Reprezentacja liczb w komputerze.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -227,7 +227,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 11. System operacyjny. Postrzeganie systemu operacyjnego przez warstwę oprogramowania użytkowego.
+## 11. System operacyjny. Postrzeganie systemu operacyjnego przez warstwę oprogramowania użytkowego.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -247,7 +247,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 12. Cechy tradycyjnego systemu unixowego.
+## 12. Cechy tradycyjnego systemu unixowego.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -267,7 +267,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 13. Iteracja, rekurencja i ich realizacja.
+## 13. Iteracja, rekurencja i ich realizacja.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -287,7 +287,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 14. Mechanizmy strukturalizacji programów - instrukcje warunkowe i pętle.
+## 14. Mechanizmy strukturalizacji programów - instrukcje warunkowe i pętle.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -307,7 +307,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 15. Podprogramy. Przekazywanie parametrów podprogramu.
+## 15. Podprogramy. Przekazywanie parametrów podprogramu.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -327,7 +327,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 16. Porównanie programowania obiektowego i strukturalnego.
+## 16. Porównanie programowania obiektowego i strukturalnego.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -347,7 +347,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 17. Hermetyzacja danych - cechy klas obiektowych (pola, metody, poziomy prywatności danych).
+## 17. Hermetyzacja danych - cechy klas obiektowych (pola, metody, poziomy prywatności danych).
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -367,7 +367,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 18. Typy metod: konstruktory, destruktory, selektory, zapytania, iteratory.
+## 18. Typy metod: konstruktory, destruktory, selektory, zapytania, iteratory.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -387,7 +387,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 19. Dziedziczenie i dynamiczny polimorfizm.
+## 19. Dziedziczenie i dynamiczny polimorfizm.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -407,7 +407,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 20. Polimorfizm statyczny – szablony.
+## 20. Polimorfizm statyczny – szablony.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -427,7 +427,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 21. Listy i drzewa oraz ich zastosowania. Stosy i kolejki.
+## 21. Listy i drzewa oraz ich zastosowania. Stosy i kolejki.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -447,7 +447,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 22. Grafy i metody ich przeszukiwania. Zastosowania.
+## 22. Grafy i metody ich przeszukiwania. Zastosowania.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -467,7 +467,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 23. Metody projektowania algorytmów (dziel i rządź, programowanie dynamiczne i algorytmy zachłanne).
+## 23. Metody projektowania algorytmów (dziel i rządź, programowanie dynamiczne i algorytmy zachłanne).
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -487,7 +487,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 24. Elementarne i nieelementarne metody sortowania.
+## 24. Elementarne i nieelementarne metody sortowania.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -507,7 +507,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 25. Elementarne metody wyszukiwania. Haszowanie.
+## 25. Elementarne metody wyszukiwania. Haszowanie.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -527,7 +527,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 26. Złożoność obliczeniowa algorytmu. Przykłady.
+## 26. Złożoność obliczeniowa algorytmu. Przykłady.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -547,7 +547,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 27. Pojęcie bazy danych - funkcje i możliwości.
+## 27. Pojęcie bazy danych - funkcje i możliwości.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -567,7 +567,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 28. Relacja i jej atrybuty w bazach danych.
+## 28. Relacja i jej atrybuty w bazach danych.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -587,7 +587,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 29. Spójność referencyjna baz danych.
+## 29. Spójność referencyjna baz danych.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -607,7 +607,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 30. Normalizacja relacji - postaci normalne.
+## 30. Normalizacja relacji - postaci normalne.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -627,7 +627,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 31. Modelowanie bazy danych - rodzaje połączeń relacyjnych, pojęcie klucza głównego i obcego.
+## 31. Modelowanie bazy danych - rodzaje połączeń relacyjnych, pojęcie klucza głównego i obcego.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -647,7 +647,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 32. Pojęcie indeksu - rodzaje i zastosowanie.
+## 32. Pojęcie indeksu - rodzaje i zastosowanie.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -667,7 +667,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 33. Podstawowe konstrukcje języka SQL.
+## 33. Podstawowe konstrukcje języka SQL.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -687,7 +687,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 34. Warstwy i funkcje modelu ISO OSI.
+## 34. Warstwy i funkcje modelu ISO OSI.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -707,7 +707,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 35. Adresowanie logiczne w sieciach komputerowych.
+## 35. Adresowanie logiczne w sieciach komputerowych.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -727,7 +727,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 36. Najważniejsze protokoły rodziny TCP/IP.
+## 36. Najważniejsze protokoły rodziny TCP/IP.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -747,7 +747,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 37. Cykle życia oprogramowania.
+## 37. Cykle życia oprogramowania.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -767,7 +767,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 38. Proces testowania i jego rola w tworzeniu oprogramowania.
+## 38. Proces testowania i jego rola w tworzeniu oprogramowania.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -787,7 +787,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 39. UML, jego struktura i przeznaczenie.
+## 39. UML, jego struktura i przeznaczenie.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -807,7 +807,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 40. Podstawowe funkcje w zespole projektowym i ich role.
+## 40. Podstawowe funkcje w zespole projektowym i ich role.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -827,7 +827,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 41. Pojęcie Maszyny Turinga - idea pracy automatu, hipoteza Churcha-Turinga
+## 41. Pojęcie Maszyny Turinga - idea pracy automatu, hipoteza Churcha-Turinga
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -847,7 +847,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 42. Usługa translacji adresów w sieci TCP/IP.
+## 42. Usługa translacji adresów w sieci TCP/IP.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -867,7 +867,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 43. Mechanizm trasowania (ang. routing) pakietów w Internecie.
+## 43. Mechanizm trasowania (ang. routing) pakietów w Internecie.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -887,7 +887,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 44. Usługi nazewnicze sieci TCP/IP.
+## 44. Usługi nazewnicze sieci TCP/IP.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -907,7 +907,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 45. Zarządzanie konfiguracją urządzenia w sieci TCP/IP.
+## 45. Zarządzanie konfiguracją urządzenia w sieci TCP/IP.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -927,7 +927,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 46. Wirtualne sieci lokalne.
+## 46. Wirtualne sieci lokalne.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -947,7 +947,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 47. Technologie redundantne w sieciach komputerowych.
+## 47. Technologie redundantne w sieciach komputerowych.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -967,7 +967,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 48. Metody optymalizacji zapytań SQL.
+## 48. Metody optymalizacji zapytań SQL.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -987,7 +987,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 49. Modele uwierzytelniania, autoryzacji i kontroli dostępu do systemów komputerowych.
+## 49. Modele uwierzytelniania, autoryzacji i kontroli dostępu do systemów komputerowych.
 
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
@@ -1007,7 +1007,7 @@ Oznacza to, że wybierając dowolnie małą dodatnią liczbę rzeczywistą $\eps
     </tbody>
 </table>
 
-### 50. Teoretyczne modele komputerów: automaty skończone, automaty ze stosem, maszyny Turinga i odpowiadające im klasy języków formalnych.
+## 50. Teoretyczne modele komputerów: automaty skończone, automaty ze stosem, maszyny Turinga i odpowiadające im klasy języków formalnych.
 <a href="<link_to_resource_local_or_online_here>"></a><b></b>
 <table align="center">
     <thead>
