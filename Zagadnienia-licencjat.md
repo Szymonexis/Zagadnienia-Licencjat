@@ -63,8 +63,20 @@ $$
 ### Dzialania na macierzach
 
 __Suma/różnica__ <br>
-Niech macierz $A=[a_{ij}]$, $B=[b_{ij}]$. Sumą/różnicą nazywamy macierz $C=[c_{ij}]_{m\times n}$, której elementy określone są wzorami <p align="center"> $c_{ij}=a_{ij}\plusmn b_{ij}$ </p> dla $i \isin${$1, 2, \ldots, m$}, $j \isin${$1, 2, \ldots, n$}. Piszemy wtedy <p align="center"> $C=A\plusmn B$ </p><br>
+Niech macierz $A=[a_{ij}]$, $B=[b_{ij}]$. Sumą/różnicą nazywamy macierz $C=[c_{ij}]_{m\times n}$, której elementy określone są wzorami 
+
+$$
+c_{ij}=a_{ij}\plusmn b_{ij} \ dla \ i \isin\{1, 2, \ldots, m\}, j \isin\{1, 2, \ldots, n\}.
+$$  
+<br>
+Piszemy wtedy 
+
+$$
+C=A\plusmn B
+$$
+
 Zatem,
+
 $$
 \left[\begin{array}{cc} 
 c_{11} & c_{12} & \ldots & c_{1n}\\
@@ -100,7 +112,10 @@ $$
 
 __Iloczyn macierzy__
 
-Iloczyn macierzy $AB$ jest możliwy jeśli macierz $A$ ma tyle samo kolumn co macierz $B$ ma wierszy. Iloczynem macierzy $A=[a_{ij}]_{n\times p}$ przez macierz $B=[b_{ij}]_{p\times m}$ nazywamy macierz $C=[c_{ij}]_{n\times m}$ taką, że: <p align="center">$c_{ij}=a_{i1}b_{1j}+a_{i2}b_{2j}+\ldots +a_{ip}b_{pj}=\sum_{k=1}^{p} a_{ik}b_{kj}$</p>
+Iloczyn macierzy $AB$ jest możliwy jeśli macierz $A$ ma tyle samo kolumn co macierz $B$ ma wierszy. Iloczynem macierzy $A=[a_{ij}]_{n\times p}$ przez macierz $B=[b_{ij}]_{p\times m}$ nazywamy macierz $C=[c_{ij}]_{n\times m}$ taką, że: 
+$$
+c_{ij}=a_{i1}b_{1j}+a_{i2}b_{2j}+\ldots +a_{ip}b_{pj}=\sum_{k=1}^{p} a_{ik}b_{kj}
+$$
 Własności iloczynu macierzy:
 - mnożenie macierzy jest łączne $A(BC)=(AB)C$ dlatego zapis $ABC$ jest jednoznaczny
 - mnożenie macierzy jest rodzielne względem dodawania $A(B+C)=AB+BC$ i $(B+C)A=BA+CA$
@@ -261,7 +276,7 @@ __Maceirz odwrotna $(A^{-1})$__
 Wzór:
 
 $$
-A^{-1}=(A^D)^T\cdot 1/det(A)
+A^{-1}=(A^D)^T\cdot \frac{1}{det(A)}
 $$
 
 gdzie:
@@ -293,7 +308,212 @@ __Własności macierzy odwrotnej__
 > ___Macierz symetryczna___ - macierz kwadratowa której wyrazy położone symetrycznie względem przekątnej głównej są równe, przykład:
 > $$\left[\begin{array}{cc}a_{11} & a_{2} & \ldots & a_{n}\\a_{2} & a_{22} & \ldots & a_{n-1}\\\vdots & \vdots & \ddots & \vdots\\ a_{n}& a_{n-1} & \ldots & a_{nn}\\\end{array}\right]$$
 
+___Proces obliczania macierzy odwrotnej dla macierzy $3\times 3$___
+$$
+B=
+\left[\begin{array}{cc}
+a_{11}& a_{12} &a_{13}\\
+a_{21}& a_{22} &a_{23}\\
+a_{31}& a_{32} &a_{33}\\
+\end{array}\right]
+=
+\left[\begin{array}{cc}
+2 & 5 & 7\\
+6 & 3 & 4\\
+5 & -2 & -3\\
+\end{array}\right]
+$$
 
+Podobnie jak wcześniej najpierw obliczamy wyznacznik macierzy $3\times 3$:
+
+$$
+det(B)=
+\left|\begin{array}{cc}
+2 & 5 & 7\\
+6 & 3 & 4\\
+5 & -2 & -3\\
+\end{array}\right|
+= -1
+$$
+
+Następnie obliczamy macierz dopełnień algebraicznych:
+
+$$
+B^D=
+\left[\begin{array}{cc}
++
+\left|\begin{array}{cc}
+a_{22} & a_{23}\\
+a_{32} & a_{33}\\
+\end{array}\right|& 
+-
+\left|\begin{array}{cc}
+a_{21} & a_{23}\\
+a_{31} & a_{33}\\
+\end{array}\right| &
++
+\left|\begin{array}{cc}
+a_{21} & a_{22}\\
+a_{31} & a_{32}\\
+\end{array}\right|\\
+-
+\left|\begin{array}{cc}
+a_{12} & a_{13}\\
+a_{32} & a_{33}\\
+\end{array}\right|& 
++
+\left|\begin{array}{cc}
+a_{11} & a_{13}\\
+a_{31} & a_{33}\\
+\end{array}\right| &
+-
+\left|\begin{array}{cc}
+a_{11} & a_{12}\\
+a_{31} & a_{33}\\
+\end{array}\right|\\
++
+\left|\begin{array}{cc}
+a_{12} & a_{13}\\
+a_{22} & a_{23}\\
+\end{array}\right|& 
+-
+\left|\begin{array}{cc}
+a_{11} & a_{13}\\
+a_{21} & a_{23}\\
+\end{array}\right| &
++
+\left|\begin{array}{cc}
+a_{11} & a_{12}\\
+a_{21} & a_{22}\\
+\end{array}\right|\\
+\end{array}\right]
+$$
+
+czyli
+
+$$
+B^D=
+\left[\begin{array}{cc}
++
+\left|\begin{array}{cc}
+3 & 4\\
+-2 & -3\\
+\end{array}\right|& 
+-
+\left|\begin{array}{cc}
+6 & 4\\
+5 & -3\\
+\end{array}\right| &
++
+\left|\begin{array}{cc}
+6 & 3\\
+5 & -2\\
+\end{array}\right|\\
+-
+\left|\begin{array}{cc}
+5 & 7\\
+-2 & -3\\
+\end{array}\right|& 
++
+\left|\begin{array}{cc}
+2 & 7\\
+5 & -3\\
+\end{array}\right| &
+-
+\left|\begin{array}{cc}
+2 & 5\\
+5 & -2\\
+\end{array}\right|\\
++
+\left|\begin{array}{cc}
+5 & 7\\
+3 & 4\\
+\end{array}\right|& 
+-
+\left|\begin{array}{cc}
+2 & 7\\
+6 & 4\\
+\end{array}\right| &
++
+\left|\begin{array}{cc}
+2 & 5\\
+6 & 3\\
+\end{array}\right|\\
+\end{array}\right]
+$$
+
+Więc:
+
+$$
+B^D=
+\left[\begin{array}{cc}
+-1 & 38 & -27 \\
+1 & -41 & 29 \\
+-1 & 34 & -24 \\
+\end{array}\right]
+$$
+
+Następnie obliczamy macierz transponowaną:
+
+$$
+(B^D)^T=
+\left[\begin{array}{cc}
+-1 & 1 & -1 \\
+38 & -41 & 34 \\
+-27 & 29 & -24 \\
+\end{array}\right]
+$$
+
+więc macierz odwrotna będzie miała postać:
+
+$$
+\frac{(B^D)^T}{det(B)}=
+\left[\begin{array}{cc}
+1 & -1 & 1 \\
+-38 & 41 & -34 \\
+27 & -29 & 24 \\
+\end{array}\right]
+$$
+
+__Ślad macierzy__
+
+Ślad macierzy jest to suma elementów leżących na przekątnej danej macierzy. Ślad macierzy definujemy tylko dla macierzy kwadratowej. Ślad macierzy kwadratowej $A=[a_{ij}]$ stopnia $n$ jest sumą elementów leżących na głównej przekątnej (diagonali). Ślad macierzy oznaczamy $Tr(A), TrA$ lub $trace(A)$.
+
+$$
+Tr(A) = \sum_{i=1}^{n}{a_{ii}} = a_{11} + a_{22} + \ldots + a_{nn}
+$$
+
+Mając macierz
+
+$$
+A=
+\left[\begin{array}{cc}
+1 & 2 & 4 & -4\\
+-3 & 4 & -6 & 12\\
+-9 & 2 & -1 & 3\\
+5 & 0 & 2 & 1\\
+\end{array}\right]
+$$
+
+obliczamy ślad macierzy w następujący sposób:
+
+$$
+tr(A)=tr
+\left[\begin{array}{cc}
+\color{red}1 & 2 & 4 & -4\\
+-3 & \color{red}4 & -6 & 12\\
+-9 & 2 & \color{red}-1 & 3\\
+5 & 0 & 2 & \color{red}1\\
+\end{array}\right] = 1 + 4 + (-1) + 1 = 5
+$$
+
+__Własności śladu macierzy__
+
+* jeśli macierze $A=a_{ij}$ i $B=b_{ij}$ są macierzami kwadratowymi tego samego stopnia to: $Tr(A+B)=Tr(A)+Tr(B)$
+* jeśli macierz $A=a_{ij}$ jest macierzą kwadratową, a $\alpha$ jest liczbą rzeczywistą to: $Tr(\alpha A)=\alpha Tr(A)$
+* jeśli $A\isin M_n$ a $B\isin M_n$ to: $Tr(AB)=Tr(BA)$
+* jeśli $A\isin M_n$, $B\isin M_n$ i $C\isin M_n$ (cykliczna przemieenność śladu) to: $Tr(ABC)=Tr(CAB)=Tr(BCA)$
+* przekątna główna mecierzy nie ulegnie zmianie przy transpozycji: $Tr(A)=Tr(A^T)$
 
 ## 3. Rozwiązywanie układów równań liniowych.
 
