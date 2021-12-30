@@ -2,8 +2,8 @@
 
 ## Jak stworzyc PDF?
 
-Po wprowadzeniu zrobieniu ```git pull``` odpalamy **merger.py** kóry stworzy nam nowy plik **master.md**. Nastepnie klikamy **Ctrl+Shift+P** w VSCode i wybieramy
-```Markdown All In One: Print documents toHTML (selecta source folder)``` wybieramy folder tego wlasnie gita a nastepnie folder **out**. Potem odpalamy w Chrome plik **master.html** klikamy **Ctrl+P** i opcje **Print to PDF** i zapisujemy plik gdzie chcemy.
+Po wprowadzeniu zrobieniu ```git pull``` odpalamy ```merger.py``` kóry stworzy nam nowy plik ```master.md``` Nastepnie klikamy ```Ctrl+Shift+P``` w VSCode i wybieramy
+```Markdown All In One: Print documents to HTML (selecta source folder)``` wybieramy folder tego wlasnie gita a nastepnie folder ```out```. Potem odpalamy w Chrome plik ```master.html``` klikamy ```Ctrl+P``` i opcje ```Print to PDF``` i zapisujemy plik gdzie chcemy.
 
 ## Podział pracy
 
